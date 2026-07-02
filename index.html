@@ -250,11 +250,13 @@
     padding:30px 0 60px;
   }
 
-  @media (max-width:760px){
-    .grid2,.grid3,.grid4{grid-template-columns:1fr 1fr;}
+@media (max-width:760px){
+    .grid3,.grid4{grid-template-columns:1fr 1fr;}
+    .grid2{grid-template-columns:1fr;}
     .sheet-head{flex-direction:column; gap:10px;}
     .sheet-purpose{text-align:left; max-width:none;}
     nav.tabs{flex-direction:column;}
+  }
   }
   @media (prefers-reduced-motion: reduce){
     *{transition:none !important;}
